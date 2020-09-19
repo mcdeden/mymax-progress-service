@@ -1,0 +1,9 @@
+spring:
+
+  application:
+    name: progress
+    
+  cloud:
+    config:
+      uri: http://configuration:8888
+      fail-fast: true
